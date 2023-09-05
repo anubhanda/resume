@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(2, 2, 73)
+}
+
+.navbar {
+    font-family: 'Baloo 2', cursive;
+    height: 58px;
+    align-items: center;
+    background-color: rgb(3, 3, 82);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.left-section {
+    font-size: 25px;
+}
+
+.right-section {
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    margin: 22px;
+    padding: 4px;
+    border-radius: 22px;
+}
+
+.item a:hover {
+    background-color: white;
+    color: black;
+}
+
+.important {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    font-size: 1.8rem;
+}
+
+.name {
+    color: purple;
+}
+
+.leftsection {
+    margin: 22px -27px;
+    padding: 22px 20px;
+}
+
+.rightsection img {
+    height: 149px;
+    width: 114%;
+}
+
+hr {
+    border: 0;
+    height: 0.4px;
+    background-color: rgb(173, 173, 245);
+    margin: 28px;
+}
+.grey{
+    color: gray;
+}
+.column{
+    color: red;
+    font-size: 1.2rem;
+    margin: 11px 483px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0 56px;
+}
+.skills{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 22px 40px;   
+}
+.info{
+    color: white;
+    font-size: 0.8rem;
+    width: 500px;
+    margin: 0px 495px;
+    margin: 28px 538px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.info span{
+    font-size: 1.8rem;
+    color: rebeccapurple;
+    padding-bottom:22px ;
+}
+.logo{
+    display: flex;
+    height: 190px;
+    position: absolute;
+}
+.logo img{
+    margin: 0 92px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-me{
+    margin-top: 15px;
+}
+.flex{
+    margin-top: 15px;  
+}
