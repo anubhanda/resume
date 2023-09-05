@@ -1,2 +1,2 @@
-# resume
-my resume for web development
+# portfolio Sample
+portfolio sample for web development
